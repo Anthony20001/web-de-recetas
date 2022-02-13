@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    --verder : rgb(34, 126, 41);
+    letter-spacing: 1px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+/******************************************/
+.hamburger{
+    z-index: 15;
+}
+
+/******************************************/
+header button{
+    display: flex;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+header button h1:hover{
+    color: rgb(43, 43, 43);
+    transition: all .2s ease;
+}
+
+header img{
+    width: 35px;
+    height: 35px;
+    margin: 10px 7px 0px 0px;
+}
+
+header h1{
+    color: slateblue;
+}
+
+/******************************************/
+a:hover{
+   cursor: pointer; 
+}
+
+.item-nav a{
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    border: solid transparent 1px;
+}
+
+.item-nav a:hover{
+    color: rgb(56, 56, 56);
+    border-bottom: solid rgb(180, 180, 180) 1px;
+    transition: all .3s ease;
+}
+
+.item-nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.item-nav a{
+    padding: 0px 12px;
+}
+
+/******************************************/
+button:hover{
+    cursor: pointer;
+}
+
+nav button{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+nav .btn1{
+    border: solid slateblue 1px;
+    color: slateblue;
+    padding: 10px;
+}
+
+nav .btn1:hover{
+    color: white;
+    background-color: slateblue;
+    transition: all .3s ease;
+}
+
+nav .btn2{
+    border: solid rgb(44, 75, 107) 1px;
+    color: rgb(43, 43, 43);
+    padding: 10px;
+}
+
+nav .btn2:hover{
+    color: white;
+    background-color:darkslategray;
+    transition: all .3s ease;
+}
+
+
+.nav-change{
+    box-shadow: 0px 2px 14px -1px rgba(0,0,0,0.2);
+}
+
